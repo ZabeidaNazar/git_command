@@ -1,2 +1,3 @@
 git branch - список гілок
 git checkout -b branch2
+git merge branch2
