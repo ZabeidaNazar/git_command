@@ -1,1 +1,4 @@
-git init  - створення(ініціалізація) нового репозиторія
+git init - створення(ініціалізація) нового репозиторія
+git add - додати в stagging area, щоб пізніше закомітити
+git status - перевірити зміни
+git commit -m "commit message" - створення коміту з текстом commit message 
