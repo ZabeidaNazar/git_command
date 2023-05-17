@@ -1,0 +1,2 @@
+git branch - список гілок
+git checkout -b branch2
