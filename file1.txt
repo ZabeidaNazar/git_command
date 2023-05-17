@@ -1,6 +1,11 @@
 git init - створення(ініціалізація) нового репозиторія
-git add - додати в stagging area, щоб пізніше закомітити
+git add <file> - додати file в stagging area, щоб пізніше закомітити
+git add . - додати все що є в stagging area, щоб пізніше закомітити
 git status - перевірити зміни
 git commit -m "commit message" - створення коміту з текстом commit message 
 git log - інфо про коміти
 git log --oneline - скорочене інфо про коміти
+git diff Head^ Head <file> - різниця file в коміті на один меншому за той, на якому голова і тим на якому зараз голова
+git diff <hash1> <hash2> <file> - різниця file в коміті з hash1 і hash2
+git checkout <hash> - перемикаємося на коміт з хешом hash (detached HEAD)
+git checkout <branch> - перемикаємося на гілку branch (перемикаємося на останній коміт і голова прикріплюється до останньго коміту)
